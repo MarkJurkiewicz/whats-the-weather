@@ -1,0 +1,32 @@
+body {
+    font-family: 'American Typewriter';
+    color: whitesmoke;
+}
+
+.container {
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background: #58b1ee;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+}
+
+#showTemp {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vmax;
+    font-family: 'American Typewriter';
+    cursor: pointer;
+    align-items: center;
+}
+
+#result {
+    font-size: 4vmax;
+}
