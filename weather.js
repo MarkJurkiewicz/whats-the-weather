@@ -35,7 +35,8 @@ function gotLocation(position) {
         method : 'GET',
         success : function (data) {
             var allData = data.main.temp;
-            $('#result').text(allData + '°');
+            var cToFahren = Math.round(allData * 9 / 5 + 32);
+            $('#result').text(cToFahren + '°');
             console.log(data);
         }
     });
