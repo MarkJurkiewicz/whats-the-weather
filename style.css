@@ -1,8 +1,13 @@
-body {
-    font-family: 'American Typewriter';
-    color: whitesmoke;
+@font-face {
+    font-family: Grotesk-Regular;
+    src: url(images/HKGrotesk-Regular.otf);
 }
 
+body {
+    font-family:Grotesk-Regular;
+    color: linen;
+    font-weight: bolder;
+}
 .container {
     align-items: center;
     height: 500px;
@@ -22,7 +27,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 3vmax;
-    font-family: 'American Typewriter';
+    font-family: Grotesk-Regular;
     cursor: pointer;
     align-items: center;
 }
